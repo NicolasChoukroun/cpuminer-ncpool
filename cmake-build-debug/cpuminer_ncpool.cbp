@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpuminer_ncpool"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nikko/cpuminer-ncpool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nikko/cpuminer-ncpool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nikko/cpuminer-ncpool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpuminer_ncpool">
+				<Option output="/home/nikko/cpuminer-ncpool/cmake-build-debug/cpuminer_ncpool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikko/cpuminer-ncpool/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nikko/cpuminer-ncpool/."/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/bionic"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/config"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/crypto"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/crypto/sha"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/include"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/include/openssl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/zlib"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/getopt"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/jansson"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/pthreads"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/sys"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/crypto"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/lyra2"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/res"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/scryptjane"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/sha3"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/yescrypt"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpuminer_ncpool"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpuminer_ncpool/fast">
+				<Option output="/home/nikko/cpuminer-ncpool/cmake-build-debug/cpuminer_ncpool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikko/cpuminer-ncpool/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nikko/cpuminer-ncpool/."/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/bionic"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/config"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/crypto"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/crypto/sha"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/include"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/include/openssl"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/zlib"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/getopt"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/jansson"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/pthreads"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/compat/sys"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/crypto"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/lyra2"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/res"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/scryptjane"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/sha3"/>
+					<Add directory="/home/nikko/cpuminer-ncpool/yescrypt"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpuminer_ncpool/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nikko/cpuminer-ncpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/allium.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/axiom.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/bastion.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/bitcore.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/blake.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/blake2.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/blake2b.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/blakecoin.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/bmw256.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/c11.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/cryptolight.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/cryptonight.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/decred.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/drop.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/fresh.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/geek.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/groestl.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/heavy.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/ink.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/jha.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/keccak.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/lbry.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/luffa.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/lyra2re.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/lyra2rev2.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/lyra2v3.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/myr-groestl.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/neoscrypt.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/nist5.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/pentablake.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/phi1612.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/phi2.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/pluck.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/quark.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/qubit.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/rainforest.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/s3.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/scrypt-jane.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/scrypt.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/sha2.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/sia.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/sibcoin.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/skein.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/skein2.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/sonoa.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/timetravel.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/tribus.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/veltor.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x11.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x11evo.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x12.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x13.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x14.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x15.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x16r.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x16s.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x17.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/x20r.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/xevan.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/yescrypt.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/algo/zr5.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/api.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/bionic/cpuminer-config.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/cpuminer-config.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/curl.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/curlbuild.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/curlrules.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/curlver.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/easy.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/mprintf.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/multi.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/stdcheaders.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/curl/include/curl/typecheck-gcc.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/config/opensslconf.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/crypto/opensslconf.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/crypto/sha/sha.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/e_os2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/include/openssl/e_os2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/include/openssl/opensslconf.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/openssl/openssl/include/openssl/sha.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/zlib/zconf.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/curl-for-windows/zlib/zlib.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/getopt/getopt.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/getopt/getopt_long.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/gettimeofday.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/inttypes.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/config.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/dump.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/error.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/hashtable.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/hashtable.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/jansson.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/jansson_config.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/jansson_private.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/load.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/memory.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/pack_unpack.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/strbuffer.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/strbuffer.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/strconv.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/utf.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/utf.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/util.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/jansson/value.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/pthreads/pthread.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/pthreads/sched.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/stdbool.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/sys/time.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/unistd.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/winansi.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/compat/winansi.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/cpu-miner.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/cpuminer-config.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/aesb.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/blake2b.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/blake2b.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/blake2s.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/blake2s.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_blake256.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_blake256.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_groestl.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_groestl.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_jh.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_jh.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_keccak.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_keccak.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_skein.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/c_skein.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/groestl_tables.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/hash-ops.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/hash.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/hash.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/int-util.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/oaes_config.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/oaes_lib.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/oaes_lib.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/crypto/skein_port.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/elist.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/lyra2/Lyra2.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/lyra2/Lyra2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/lyra2/Sponge.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/lyra2/Sponge.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/miner.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/res/resource.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-conf.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-chacha.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-hash.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-hash_blake256.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-hash_blake512.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-hash_keccak.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-hash_sha256.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-hash_sha512.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-hash_skein512.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_chacha-avx.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_chacha-sse2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_chacha-ssse3.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_chacha.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_salsa-avx.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_salsa-sse2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_salsa.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_salsa64-avx.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_salsa64-sse2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_salsa64-ssse3.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-mix_salsa64.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-pbkdf2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-portable-x86.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-portable.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-romix-basic.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-romix-template.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-romix.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-salsa.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-salsa64.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/scryptjane/scrypt-jane-test-vectors.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/aes_helper.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/gost_streebog.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/gost_streebog.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/haval_helper.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/md_helper.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/mod_blakecoin.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_blake.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_blake.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_bmw.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_bmw.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_cubehash.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_cubehash.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_echo.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_echo.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_fugue.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_fugue.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_groestl.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_groestl.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_hamsi.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_hamsi.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_hamsi_helper.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_haval.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_haval.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_hefty1.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_hefty1.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_jh.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_jh.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_keccak.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_keccak.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_luffa.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_luffa.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_panama.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_panama.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_radiogatun.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_radiogatun.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_ripemd.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_ripemd.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_sha2.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_sha2.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_sha2big.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_shabal.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_shabal.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_shavite.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_shavite.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_simd.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_simd.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_skein.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_skein.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_types.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_whirlpool.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sha3/sph_whirlpool.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/sysinfos.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/uint256.cpp">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/uint256.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/util.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/sha256_Y.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/sha256_Y.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/sysendian.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/yescrypt-best.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/yescrypt-common.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/yescrypt-opt.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/yescrypt-platform.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/yescrypt-simd.c">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/yescrypt/yescrypt.h">
+			<Option target="cpuminer_ncpool"/>
+		</Unit>
+		<Unit filename="/home/nikko/cpuminer-ncpool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
