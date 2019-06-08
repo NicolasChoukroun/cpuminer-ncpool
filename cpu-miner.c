@@ -3,6 +3,7 @@
  * Copyright 2012-2014 pooler
  * Copyright 2014 Lucas Jones
  * Copyright 2014 Tanguy Pruvot
+ * Copyright 2019 Nicolas Choukroun
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -20,7 +21,6 @@
 #include <inttypes.h>
 #include <unistd.h>
 #include <sys/time.h>
-#include <time.h>
 #include <signal.h>
 
 #include <curl/curl.h>
@@ -33,11 +33,8 @@
 #else
 #include <errno.h>
 #if HAVE_SYS_SYSCTL_H
-#include <sys/types.h>
 #if HAVE_SYS_PARAM_H
-#include <sys/param.h>
 #endif
-#include <sys/sysctl.h>
 #endif
 #endif
 
@@ -299,7 +296,6 @@ int opt_api_remote = 0;
 int opt_api_listen = 4048; /* 0 to disable */
 
 #ifdef HAVE_GETOPT_LONG
-#include <getopt.h>
 #else
 struct option {
 	const char *name;
@@ -497,7 +493,6 @@ static void workio_cmd_free(struct workio_cmd *wc);
 
 
 #ifdef __linux /* Linux specific policy and affinity management */
-#include <sched.h>
 
 static inline void drop_policy(void)
 {
@@ -1041,9 +1036,9 @@ out:
 	return rc;
 }
 
-#define YES "yes!"
-#define YAY "yay!!!"
-#define BOO "booooo"
+#define YES "Oui! Yes!"
+#define YAY "booya!!!"
+#define BOO "bad!"
 
 static int share_result(int result, struct work *work, const char *reason)
 {
@@ -1054,6 +1049,7 @@ static int share_result(int result, struct work *work, const char *reason)
 	double sharediff = work ? work->sharediff : stratum.sharediff;
 	int i;
 
+	printf("Result: %i - Reason: %s \n", result, reason);
 	hashrate = 0.;
 	pthread_mutex_lock(&stats_lock);
 	for (i = 0; i < opt_n_threads; i++)
@@ -1063,7 +1059,7 @@ static int share_result(int result, struct work *work, const char *reason)
 
 	global_hashrate = (uint64_t) hashrate;
 
-	if (!net_diff || sharediff < net_diff) {
+	if (!net_diff || sharediff < net_diff || reason == false) {
 		flag = use_colors ?
 			(result ? CL_GRN YES : CL_RED BOO)
 		:	(result ? "(" YES ")" : "(" BOO ")");
@@ -1103,10 +1099,10 @@ static int share_result(int result, struct work *work, const char *reason)
 		if (0 && strncmp(reason, "low difficulty share", 20) == 0) {
 			opt_diff_factor = (opt_diff_factor * 2.0) / 3.0;
 			applog(LOG_WARNING, "factor reduced to : %0.2f", opt_diff_factor);
-			return 0;
+
 		}
 	}
-	return 1;
+	return result;
 }
 
 static bool submit_upstream_work(CURL *curl, struct work *work)
@@ -3415,7 +3411,7 @@ static int thread_create(struct thr_info *thr, void* func)
 static void show_credits()
 {
 	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " Adapted to NC pool by Nicolas Choukroun **\n");
-	printf("Based on the amazing work made by tpruvot@github **\n");
+	printf("Based on the work made by tpruvot@github **\n");
 	printf("tpruvot BTC donation address: 1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd (tpruvot)\n\n");
 }
 
@@ -3677,3 +3673,4 @@ int main(int argc, char *argv[]) {
 
 	return 0;
 }
+
