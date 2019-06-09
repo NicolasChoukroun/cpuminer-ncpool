@@ -94,7 +94,7 @@
 #define PACKAGE_NAME "cpuminer-multi-ncpool"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "cpuminer-multi 1.3.6 - ncpool"
+#define PACKAGE_STRING "cpuminer-multi 1.3.7 - ncpool"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "cpuminer-multi-ncpool"
@@ -103,7 +103,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.3.6"
+#define PACKAGE_VERSION "1.3.7"
 
 /* If using the C implementation of alloca, define if you know the
    direction of stack growth for your system; otherwise it will be
