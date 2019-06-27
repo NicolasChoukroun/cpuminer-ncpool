@@ -27,6 +27,8 @@
 #include <jansson.h>
 #include <openssl/sha.h>
 
+#include <getopt.h>
+
 #ifdef _MSC_VER
 #include <windows.h>
 #include <stdint.h>

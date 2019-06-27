@@ -24,7 +24,7 @@ BrandingText "CPU Miner Install System"
 !define PROGRAM_NAME "CPU Miner"
 !define PROGRAM_KEY  "cpuminer"
 
-Name "cpuminer-multi v${MINER_VERSION}"
+Name "cpuminer-ncpool v${MINER_VERSION}"
 OutFile "${PROGRAM_KEY}-setup.exe"
 Icon "res\setup.ico"
 ; Icon "res\${PROGRAM_KEY}.ico"
@@ -45,11 +45,11 @@ VIAddVersionKey OriginalFilename "${PROGRAM_KEY}.exe"
 !define NSIS_MAKENSIS64
 !ifdef NSIS_MAKENSIS64
   !define BITS 64
-  InstallDir $PROGRAMFILES64\cpuminer-multi
+  InstallDir $PROGRAMFILES64\cpuminer-ncpool
   !define RK_UNINSTALL "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\${PROGRAM_KEY}"
 !else
   !define BITS 32
-  InstallDir $PROGRAMFILES32\cpuminer-multi
+  InstallDir $PROGRAMFILES32\cpuminer-ncpool
   !define RK_UNINSTALL "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\${PROGRAM_KEY}"
   ;!define RK_UNINSTALL "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\${PROGRAM_KEY}"
 !endif
@@ -158,7 +158,7 @@ FunctionEnd
 
 Function func_title_pre1    ; Page 1, Pre
   SendMessage $_0_ ${WM_SETTEXT} 0 STR:$(LSTR_38)    ;  Installing
-  SendMessage $_2_ ${WM_SETTEXT} 0 STR:$(LSTR_39)    ;  Please wait while ${PROGRAM_NAME} is being installed. cpuminer-multi
+  SendMessage $_2_ ${WM_SETTEXT} 0 STR:$(LSTR_39)    ;  Please wait while ${PROGRAM_NAME} is being installed. cpuminer-ncpool
 FunctionEnd
 
 

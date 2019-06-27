@@ -77,22 +77,22 @@
 #define HAVE_UNISTD_H 1
 
 /* Name of package */
-#define PACKAGE "cpuminer-multi"
+#define PACKAGE "cpuminer-ncpool"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "cpuminer-multi"
+#define PACKAGE_NAME "cpuminer-ncpool"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "cpuminer-multi " VERSION
+#define PACKAGE_STRING "cpuminer-ncpool " VERSION
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "cpuminer-multi"
+#define PACKAGE_TARNAME "cpuminer-ncpool"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "http://github.com/tpruvot/cpuminer-multi"
+#define PACKAGE_URL "http://github.com/tpruvot/cpuminer-ncpool"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION VERSION
