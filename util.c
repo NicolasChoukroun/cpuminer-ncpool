@@ -1067,8 +1067,15 @@ char *stratum_recv_line(struct stratum_ctx *sctx)
 			ssize_t n;
 
 			memset(s, 0, RBUFSIZE);
-			n = recv(sctx->sock, s, RECVSIZE, 0);
-			if (!n) {
+			int count = 0;
+			while (n = recv(sctx->sock, s, RECVSIZE, 0)) {
+				if (n) {
+					break;
+				}
+				count++;
+				if (count > 1000) break;
+			}
+			if (!n || count>=1000) {
 				ret = false;
 				break;
 			}
@@ -1079,10 +1086,10 @@ char *stratum_recv_line(struct stratum_ctx *sctx)
 				}
 			} else
 				stratum_buffer_append(sctx, s);
-		} while (time(NULL) - rstart < 60 && !strstr(sctx->sockbuf, "\n"));
+		} while (time(NULL) - rstart < 300 && !strstr(sctx->sockbuf, "\n"));
 
 		if (!ret) {
-			applog(LOG_ERR, "stratum_recv_line failed");
+			applog(LOG_ERR, "stratum_recv_line failed: %s", sctx->sockbuf);
 			goto out;
 		}
 	}
@@ -1856,7 +1863,7 @@ static bool stratum_benchdata(json_t *result, json_t *params, int thr_id)
 	double cpufreq = 0;
 	json_t *val;
 
-	if (!opt_stratum_stats) return false;
+	//if (!opt_stratum_stats) return false;
 
 	get_currentalgo(algo, sizeof(algo));
 
@@ -1926,9 +1933,9 @@ static bool stratum_benchdata(json_t *result, json_t *params, int thr_id)
 	json_object_set_new(val, "client", json_string(PACKAGE_NAME "/" PACKAGE_VERSION));
 	json_object_set_new(val, "os", json_string(os));
 	json_object_set_new(val, "driver", json_string(compiler));
-
 	json_object_set_new(result, "result", val);
 
+	//printf("stats val %s \n",val);
 	return true;
 }
 
@@ -2124,6 +2131,7 @@ bool stratum_handle_method(struct stratum_ctx *sctx, const char *s)
 		goto out;
 	}
 	if (!strcasecmp(method, "client.get_stats")) {
+		printf("client.get_stats asked \n");
 		// optional to fill device benchmarks
 		ret = stratum_get_stats(sctx, id, params);
 		goto out;

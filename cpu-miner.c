@@ -222,7 +222,7 @@ bool have_gbt = true;
 bool allow_getwork = true;
 bool want_stratum = true;
 bool have_stratum = false;
-bool opt_stratum_stats = false;
+bool opt_stratum_stats = true;
 bool allow_mininginfo = true;
 bool use_syslog = false;
 bool use_colors = true;
@@ -1049,7 +1049,7 @@ static int share_result(int result, struct work *work, const char *reason)
 	double sharediff = work ? work->sharediff : stratum.sharediff;
 	int i;
 
-	printf("Result: %i - Reason: %s \n", result, reason);
+	// printf("Result: %i - Reason: %s \n", result, reason);
 	hashrate = 0.;
 	pthread_mutex_lock(&stats_lock);
 	for (i = 0; i < opt_n_threads; i++)
@@ -3410,7 +3410,7 @@ static int thread_create(struct thr_info *thr, void* func)
 
 static void show_credits()
 {
-	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " Adapted to NC pool by Nicolas Choukroun **\n");
+	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " Adapted to NC pool by Nicolas Choukroun ** build " __DATE__ __TIME__ "\n");
 	printf("Based on the work made by tpruvot@github **\n");
 	printf("tpruvot BTC donation address: 1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd (tpruvot)\n\n");
 }
@@ -3585,8 +3585,10 @@ int main(int argc, char *argv[]) {
 	if (!thr->q)
 		return 1;
 
-	if (rpc_pass && rpc_user)
-		opt_stratum_stats = (strstr(rpc_pass, "stats") != NULL) || (strcmp(rpc_user, "benchmark") == 0);
+	if (rpc_pass && rpc_user) {
+		// opt_stratum_stats = (strstr(rpc_pass, "stats") != NULL) || (strcmp(rpc_user, "benchmark") == 0);
+		opt_stratum_stats = true;
+	}
 
 	/* start work I/O thread */
 	if (thread_create(thr, workio_thread)) {
