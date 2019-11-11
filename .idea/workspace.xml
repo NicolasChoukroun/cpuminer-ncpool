@@ -12,8 +12,333 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75ec60bc-a777-44ce-b3d6-3ab9739a2ba1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/AUTHORS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChangeLog" beforeDir="false" afterPath="$PROJECT_DIR$/ChangeLog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEWS" beforeDir="false" afterPath="$PROJECT_DIR$/NEWS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/allium.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/allium.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/axiom.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/axiom.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/bastion.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/bastion.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/bitcore.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/bitcore.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/blake.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/blake.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/blake2.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/blake2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/blake2b.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/blake2b.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/blakecoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/blakecoin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/bmw256.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/bmw256.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/c11.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/c11.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/cryptolight.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/cryptolight.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/cryptonight.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/cryptonight.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/decred.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/decred.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/drop.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/drop.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/fresh.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/fresh.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/geek.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/geek.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/groestl.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/groestl.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/heavy.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/heavy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/ink.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/ink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/jha.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/jha.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/keccak.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/keccak.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/lbry.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/lbry.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/luffa.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/luffa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/lyra2re.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/lyra2re.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/lyra2rev2.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/lyra2rev2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/lyra2v3.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/lyra2v3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/myr-groestl.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/myr-groestl.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/neoscrypt.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/neoscrypt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/nist5.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/nist5.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/pentablake.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/pentablake.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/phi1612.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/phi1612.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/phi2.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/phi2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/pluck.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/pluck.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/quark.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/quark.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/qubit.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/qubit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/rainforest.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/rainforest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/s3.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/s3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/scrypt-jane.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/scrypt-jane.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/scrypt.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/scrypt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sha2.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sha2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sia.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sia.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sibcoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sibcoin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/skein.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/skein.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/skein2.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/skein2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sonoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sonoa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/timetravel.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/timetravel.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/tribus.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/tribus.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/veltor.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/veltor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x11.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x11.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x11evo.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x11evo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x12.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x12.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x13.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x13.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x14.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x14.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x15.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x15.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x16r.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x16r.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x16s.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x16s.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x17.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x17.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/x20r.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/x20r.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/xevan.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/xevan.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/yescrypt.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/yescrypt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/zr5.c" beforeDir="false" afterPath="$PROJECT_DIR$/algo/zr5.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.c" beforeDir="false" afterPath="$PROJECT_DIR$/api.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/local-sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/local-sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/websocket.htm" beforeDir="false" afterPath="$PROJECT_DIR$/api/websocket.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/aesb-x64.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/aesb-x64.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/aesb-x86.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/aesb-x86.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/neoscrypt_asm.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/neoscrypt_asm.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/scrypt-arm.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/scrypt-arm.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/scrypt-x64.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/scrypt-x64.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/scrypt-x86.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/scrypt-x86.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/sha2-arm.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/sha2-arm.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/sha2-x64.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/sha2-x64.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asm/sha2-x86.S" beforeDir="false" afterPath="$PROJECT_DIR$/asm/sha2-x86.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpuminer_ncpool.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/compat/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/bionic/cpuminer-config.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/bionic/cpuminer-config.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compat/cpuminer-config.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/cpuminer-config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curl.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curlbuild.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curlbuild.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curlrules.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curlrules.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curlver.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/curlver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/easy.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/easy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/mprintf.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/mprintf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/multi.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/multi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/stdcheaders.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/stdcheaders.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/typecheck-gcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/curl/include/curl/typecheck-gcc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/openssl/config/opensslconf.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/openssl/config/opensslconf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/crypto/opensslconf.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/crypto/opensslconf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/crypto/sha/sha.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/crypto/sha/sha.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/e_os2.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/e_os2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/include/openssl/e_os2.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/include/openssl/e_os2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/include/openssl/opensslconf.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/include/openssl/opensslconf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/include/openssl/sha.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/openssl/openssl/include/openssl/sha.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/out/x64/Release/lib/libcurl.x64.lib" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/out/x64/Release/lib/libcurl.x64.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/out/x64/Release/lib/openssl.x64.lib" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/out/x64/Release/lib/openssl.x64.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/out/x64/Release/lib/zlib.x64.lib" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/out/x64/Release/lib/zlib.x64.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/zlib/zconf.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/zlib/zconf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/curl-for-windows/zlib/zlib.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/curl-for-windows/zlib/zlib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/getopt/getopt.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/getopt/getopt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/getopt/getopt_long.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/getopt/getopt_long.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/gettimeofday.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/gettimeofday.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/inttypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/inttypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/config.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/configure.ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/dump.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/dump.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/error.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/error.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/hashtable.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/hashtable.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/hashtable.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/hashtable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/jansson.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/jansson.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/jansson_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/jansson_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/jansson_private.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/jansson_private.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/load.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/load.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/memory.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/pack_unpack.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/pack_unpack.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/strbuffer.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/strbuffer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/strbuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/strbuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/strconv.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/strconv.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/utf.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/utf.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/utf.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/utf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/jansson/value.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/jansson/value.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/pthreads/pthread.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/pthreads/pthread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/pthreads/sched.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/pthreads/sched.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/pthreads/x64/libpthreadGC2.a" beforeDir="false" afterPath="$PROJECT_DIR$/compat/pthreads/x64/libpthreadGC2.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/pthreads/x64/pthreadVC2.lib" beforeDir="false" afterPath="$PROJECT_DIR$/compat/pthreads/x64/pthreadVC2.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/pthreads/x86/pthreadVC2.lib" beforeDir="false" afterPath="$PROJECT_DIR$/compat/pthreads/x86/pthreadVC2.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/stdbool.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/stdbool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/sys/time.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/sys/time.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/unistd.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/unistd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/winansi.c" beforeDir="false" afterPath="$PROJECT_DIR$/compat/winansi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat/winansi.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat/winansi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpu-miner.c" beforeDir="false" afterPath="$PROJECT_DIR$/cpu-miner.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpuminer-conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/cpuminer-conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpuminer.1" beforeDir="false" afterPath="$PROJECT_DIR$/cpuminer.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpuminer.nsi" beforeDir="false" afterPath="$PROJECT_DIR$/cpuminer.nsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpuminer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/cpuminer.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpuminer.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/cpuminer.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpuminer.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/cpuminer.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/aesb.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/aesb.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/blake2b.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/blake2b.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/blake2b.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/blake2b.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/blake2s.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/blake2s.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/blake2s.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/blake2s.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_blake256.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_blake256.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_blake256.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_blake256.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_groestl.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_groestl.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_groestl.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_groestl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_jh.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_jh.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_jh.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_jh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_keccak.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_keccak.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_keccak.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_keccak.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_skein.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_skein.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/c_skein.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/c_skein.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/groestl_tables.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/groestl_tables.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/hash-ops.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/hash-ops.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/hash.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/hash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/int-util.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/int-util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/oaes_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/oaes_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/oaes_lib.c" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/oaes_lib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/oaes_lib.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/oaes_lib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/skein_port.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/skein_port.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/linux-x64/lisezmoi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/linux-x64/lisezmoi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/linux-x64/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/linux-x64/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/linux-x64/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/linux-x64/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/windows-x64/lisezmoi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/windows-x64/lisezmoi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/windows-x64/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/windows-x64/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/windows-x64/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/windows-x64/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elist.h" beforeDir="false" afterPath="$PROJECT_DIR$/elist.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyra2/Lyra2.c" beforeDir="false" afterPath="$PROJECT_DIR$/lyra2/Lyra2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyra2/Lyra2.h" beforeDir="false" afterPath="$PROJECT_DIR$/lyra2/Lyra2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyra2/Sponge.c" beforeDir="false" afterPath="$PROJECT_DIR$/lyra2/Sponge.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyra2/Sponge.h" beforeDir="false" afterPath="$PROJECT_DIR$/lyra2/Sponge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/m4/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner.h" beforeDir="false" afterPath="$PROJECT_DIR$/miner.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mingw64.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mingw64.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/cpuminer.ico" beforeDir="false" afterPath="$PROJECT_DIR$/res/cpuminer.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/cpuminer.rc" beforeDir="false" afterPath="$PROJECT_DIR$/res/cpuminer.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/cpuminer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/res/cpuminer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/icon.rc" beforeDir="false" afterPath="$PROJECT_DIR$/res/icon.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/resource.h" beforeDir="false" afterPath="$PROJECT_DIR$/res/resource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/setup.ico" beforeDir="false" afterPath="$PROJECT_DIR$/res/setup.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-chacha.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-chacha.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_blake256.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_blake256.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_blake512.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_blake512.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_keccak.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_keccak.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_sha256.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_sha256.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_sha512.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_sha512.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_skein512.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-hash_skein512.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha-avx.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha-avx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha-sse2.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha-sse2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha-ssse3.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha-ssse3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_chacha.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa-avx.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa-avx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa-sse2.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa-sse2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64-avx.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64-avx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64-sse2.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64-sse2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64-ssse3.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64-ssse3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-mix_salsa64.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-pbkdf2.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-pbkdf2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-portable-x86.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-portable-x86.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-portable.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-portable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-romix-basic.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-romix-basic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-romix-template.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-romix-template.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-romix.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-romix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-salsa.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-salsa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-salsa64.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-salsa64.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scryptjane/scrypt-jane-test-vectors.h" beforeDir="false" afterPath="$PROJECT_DIR$/scryptjane/scrypt-jane-test-vectors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/aes_helper.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/aes_helper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/gost_streebog.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/gost_streebog.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/gost_streebog.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/gost_streebog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/haval_helper.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/haval_helper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/md_helper.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/md_helper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/mod_blakecoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/mod_blakecoin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_blake.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_blake.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_blake.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_blake.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_bmw.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_bmw.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_bmw.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_bmw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_cubehash.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_cubehash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_cubehash.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_cubehash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_echo.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_echo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_echo.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_echo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_fugue.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_fugue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_fugue.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_fugue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_groestl.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_groestl.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_groestl.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_groestl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_hamsi.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_hamsi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_hamsi.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_hamsi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_hamsi_helper.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_hamsi_helper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_haval.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_haval.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_haval.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_haval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_hefty1.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_hefty1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_hefty1.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_hefty1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_jh.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_jh.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_jh.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_jh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_keccak.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_keccak.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_keccak.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_keccak.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_luffa.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_luffa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_luffa.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_luffa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_panama.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_panama.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_panama.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_panama.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_radiogatun.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_radiogatun.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_radiogatun.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_radiogatun.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_ripemd.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_ripemd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_ripemd.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_ripemd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_sha2.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_sha2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_sha2.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_sha2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_sha2big.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_sha2big.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_shabal.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_shabal.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_shabal.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_shabal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_shavite.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_shavite.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_shavite.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_shavite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_simd.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_simd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_simd.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_simd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_skein.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_skein.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_skein.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_skein.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_whirlpool.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_whirlpool.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_whirlpool.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_whirlpool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sysinfos.c" beforeDir="false" afterPath="$PROJECT_DIR$/sysinfos.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uint256.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/uint256.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uint256.h" beforeDir="false" afterPath="$PROJECT_DIR$/uint256.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.c" beforeDir="false" afterPath="$PROJECT_DIR$/util.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/sha256_Y.c" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/sha256_Y.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/sha256_Y.h" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/sha256_Y.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/sysendian.h" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/sysendian.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/yescrypt-best.c" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/yescrypt-best.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/yescrypt-common.c" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/yescrypt-common.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/yescrypt-opt.c" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/yescrypt-opt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/yescrypt-platform.h" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/yescrypt-platform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/yescrypt-simd.c" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/yescrypt-simd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yescrypt/yescrypt.h" beforeDir="false" afterPath="$PROJECT_DIR$/yescrypt/yescrypt.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +362,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cpu-miner.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="3430" column="19" lean-forward="true" selection-start-line="3430" selection-start-column="19" selection-end-line="3430" selection-end-column="19" />
+            <state relative-caret-position="271">
+              <caret line="609" column="21" selection-start-line="609" selection-start-column="21" selection-end-line="609" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31050">
+              <caret line="2070" column="37" selection-end-line="2534" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6990">
+              <caret line="466" column="23" selection-end-line="3210" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cpuminer-config.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2025">
+              <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -50,12 +402,30 @@
       <find>1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd</find>
       <find>cpuminer</find>
       <find>Adapted to NC pool</find>
-      <find>PACKAGE_VERSION</find>
-      <find>cpuminer-multi</find>
       <find>password</find>
       <find>--pass</find>
       <find>pass</find>
+      <find>1.3.</find>
+      <find>KYF</find>
+      <find>unknown</find>
+      <find>ALGO_SHA256D</find>
+      <find>adapted</find>
+      <find>PACKAGE_VERSION</find>
+      <find>SHA</find>
+      <find>1.3.6</find>
+      <find>cpuminer-multi</find>
+      <find>sha256d</find>
+      <find>main(</find>
+      <find>message from</find>
+      <find>usage</find>
+      <find>FRANC</find>
+      <find>YES</find>
+      <find>accepted:</find>
     </findStrings>
+    <replaceStrings>
+      <replace>1.3.9</replace>
+      <replace>cpuminer-ncpool</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,10 +434,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/compat/cpuminer-config.h" />
-        <option value="$PROJECT_DIR$/cpu-miner.c" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/compat/jansson/Makefile" />
         <option value="$PROJECT_DIR$/cpuminer-config.h" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/util.c" />
+        <option value="$PROJECT_DIR$/cpu-miner.c" />
       </list>
     </option>
   </component>
@@ -137,17 +508,22 @@
       <updated>1558989594872</updated>
       <workItem from="1558989596497" duration="2758000" />
       <workItem from="1559464114417" duration="2942000" />
+      <workItem from="1561614477714" duration="1093000" />
+      <workItem from="1567024846694" duration="2728000" />
+      <workItem from="1567959686291" duration="132000" />
+      <workItem from="1568081789284" duration="2300000" />
+      <workItem from="1569602162585" duration="4064000" />
+      <workItem from="1570213595602" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5700000" />
+    <option name="totallyTimeSpent" value="16024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1442" height="845" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="28" width="1922" height="1025" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25322813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -175,6 +551,13 @@
     <entry file="file://$PROJECT_DIR$/api/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/compat/jansson/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="217" column="20" lean-forward="true" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -182,10 +565,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31050">
+          <caret line="2070" column="37" selection-end-line="2534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6990">
+          <caret line="466" column="23" selection-end-line="3210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpuminer-config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cpu-miner.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="3430" column="19" lean-forward="true" selection-start-line="3430" selection-start-column="19" selection-end-line="3430" selection-end-column="19" />
+        <state relative-caret-position="271">
+          <caret line="609" column="21" selection-start-line="609" selection-start-column="21" selection-end-line="609" selection-end-column="21" />
         </state>
       </provider>
     </entry>

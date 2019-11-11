@@ -27,8 +27,6 @@
 #include <jansson.h>
 #include <openssl/sha.h>
 
-#include <getopt.h>
-
 #ifdef _MSC_VER
 #include <windows.h>
 #include <stdint.h>
@@ -61,6 +59,8 @@ BOOL WINAPI ConsoleHandler(DWORD);
 #define min(a,b) (a>b ? b : a)
 #define max(a,b) (a<b ? b : a)
 #endif
+
+#include <getopt.h>
 
 enum workio_commands {
 	WC_GET_WORK,
@@ -116,6 +116,7 @@ enum algos {
 	ALGO_SCRYPTJANE,  /* Chacha */
 	ALGO_SHAVITE3,    /* Shavite3 */
 	ALGO_SHA256D,     /* SHA-256d */
+    ALGO_SHA256FRANC,     /* SHA-256franc */
 	ALGO_SIA,         /* Blake2-B */
 	ALGO_SIB,         /* X11 + gost (Sibcoin) */
 	ALGO_SKEIN,       /* Skein */
@@ -183,7 +184,8 @@ static const char *algo_names[] = {
 	"scrypt",
 	"scrypt-jane",
 	"shavite3",
-	"sha256d",
+    "sha256d",
+    "sha256franc",
 	"sia",
 	"sib",
 	"skein",
@@ -351,6 +353,7 @@ Options:\n\
                           scrypt-jane:N (with N factor from 4 to 30)\n\
                           shavite3     Shavite3\n\
                           sha256d      SHA-256d\n\
+                          sha256franc  SHA-256franc\n\
                           sia          Blake2-B\n\
                           sib          X11 + gost (SibCoin)\n\
                           skein        Skein+Sha (Skeincoin)\n\
@@ -431,7 +434,7 @@ static char const short_options[] =
 #endif
 	"a:b:Bc:CDf:hm:n:p:Px:qr:R:s:t:T:o:u:O:V";
 
-static struct option const options[] = {
+struct option options[] = {
 	{ "algo", 1, NULL, 'a' },
 	{ "api-bind", 1, NULL, 'b' },
 	{ "api-remote", 0, NULL, 1030 },
@@ -604,6 +607,7 @@ static void calc_network_diff(struct work *work)
 	if (opt_algo == ALGO_DECRED && shift == 28) d *= 256.0; // testnet
 	if (opt_debug_diff)
 		applog(LOG_DEBUG, "net diff: %f -> shift %u, bits %08x", d, shift, bits);
+	if (d<1.0) d=1.0;
 	net_diff = d;
 }
 
@@ -2372,6 +2376,7 @@ static void *miner_thread(void *userdata)
 			rc = scanhash_ink(thr_id, &work, max_nonce, &hashes_done);
 			break;
 		case ALGO_SHA256D:
+        case ALGO_SHA256FRANC:
 			rc = scanhash_sha256d(thr_id, &work, max_nonce,	&hashes_done);
 			break;
 		case ALGO_SIA:

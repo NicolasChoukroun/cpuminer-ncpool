@@ -2058,7 +2058,7 @@ static bool stratum_show_message(struct stratum_ctx *sctx, json_t *id, json_t *p
 
 	val = json_array_get(params, 0);
 	if (val)
-		applog(LOG_NOTICE, "MESSAGE FROM SERVER: %s", json_string_value(val));
+		applog(LOG_NOTICE, "SVR: %s", json_string_value(val));
 	
 	if (!id || json_is_null(id))
 		return true;

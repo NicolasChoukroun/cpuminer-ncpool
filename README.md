@@ -1,7 +1,7 @@
-CPUMiner-Multi
+cpuminer-ncpool
 ==============
 
-[![Build Status](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
+[![Build Status](https://travis-ci.org/tpruvot/cpuminer-ncpool.svg)](https://travis-ci.org/tpruvot/cpuminer-ncpool)
 
 This is a multi-threaded CPU miner,
 fork of [pooler](//github.com/pooler)'s cpuminer (see AUTHORS for list of contributors).
@@ -95,9 +95,9 @@ Dependencies
 
 Download
 ========
- * Windows releases: https://github.com/tpruvot/cpuminer-multi/releases
- * Git tree:   https://github.com/tpruvot/cpuminer-multi
-   * Clone with `git clone https://github.com/tpruvot/cpuminer-multi`
+ * Windows releases: https://github.com/tpruvot/cpuminer-ncpool/releases
+ * Git tree:   https://github.com/tpruvot/cpuminer-ncpool
+   * Clone with `git clone https://github.com/tpruvot/cpuminer-ncpool`
 
 Build
 =====
@@ -200,7 +200,7 @@ Lucas Jones :
 
 Credits
 =======
-CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas Jones.
+cpuminer-ncpool was forked from pooler's CPUMiner, and has been started by Lucas Jones.
 * [tpruvot](https://github.com/tpruvot) added all the recent features and newer algorythmns
 * [Wolf9466](https://github.com/wolf9466) helped with Intel AES-NI support for CryptoNight
 
